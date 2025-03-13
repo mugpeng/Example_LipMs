@@ -2,7 +2,7 @@
 
 ## Overview
 
-The LipMS Analysis Pipeline is a comprehensive R-based workflow for analyzing Limited Proteolysis Mass Spectrometry (LiP-MS) data. This pipeline processes raw MaxQuant data to identify significant changes in protein abundance and structural alterations through peptide-level analysis.
+This LipMS Analysis Pipeline is mainly use function from [jpquast/protti: Picotti lab data analysis package.](https://github.com/jpquast/protti), which is a comprehensive R-based workflow for analyzing Limited Proteolysis Mass Spectrometry (LiP-MS) data. This pipeline processes raw MaxQuant data to identify significant changes in protein abundance and structural alterations through peptide-level analysis.
 
 
 
