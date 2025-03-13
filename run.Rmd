@@ -1,5 +1,6 @@
 ```{r library, include=FALSE}
 # locally Install protti
+install.packages('protti_0.9.2_Peng-0313.tar.gz', type='source') 
 
 my_packages <- c("tidyverse", "data.table", "readxl",
                  "protti")
@@ -22,8 +23,8 @@ source("example_analysis_function.R")
 load gene protein transform data:
 ```{r}
 gene_protein_df <- fread("Input/Human_protein_gene_id.csv")
-colnames(gene_protein_df) <- c("Accession", "GeneName")
 gene_protein_df$`UniProtKB-ID` <- NULL
+colnames(gene_protein_df) <- c("Accession", "GeneName")
 ```
 
 Run:
