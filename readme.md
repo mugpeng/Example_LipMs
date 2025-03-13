@@ -21,6 +21,18 @@ The LipMS Analysis Pipeline is a comprehensive R-based workflow for analyzing Li
 
 ## Usage Example
 
+install revised `protti` by `install.packages('protti_0.9.2_Peng-0313.tar.gz', type='source') `
+
+
+
+### Script
+
+directly run `run.Rmd` which majorly use function from `example_analysis_function.R`.
+
+
+
+### code
+
 ```r
 # Load gene-protein mapping data
 gene_protein_df <- fread("Input/Human_protein_gene_id.csv")
@@ -43,12 +55,6 @@ peptides_list <- transfer_maxquant_data(raw_peptide2)
 peptides_diff <- run_lip_ms_analysis(peptides_list,
                     modifications_df = modifications_df)
 ```
-
-## 
-
-
-
-directly run `run.Rmd` which majorly use function from `example_analysis_function.R`.
 
 
 
@@ -133,4 +139,3 @@ The pipeline generates the following output files in the specified output direct
 - `significant_proteins.csv`: List of significantly changed proteins
 - `significant_peptides.csv`: List of significantly changed peptides after normalization
 - `lip_ms_volcano_plot.pdf`: Volcano plot of peptide changes
-
