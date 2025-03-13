@@ -1,0 +1,20 @@
+"0","source(""example_analysis_function.R"")
+"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"2","Warning: cannot open file 'R/calculate_diff_abundance.R': No such file or directory"
+"2","Error in file(filename, ""r"", encoding = encoding) : 
+  cannot open the connection
+"
