@@ -6,6 +6,16 @@ This LipMS Analysis Pipeline is mainly use function from [jpquast/protti: Picott
 
 
 
+## citation
+
+- Jan-Philipp Quast, Dina Schuster, Paola Picotti. protti: an R package for comprehensive data analysis of peptide- and protein-centric bottom-up proteomics data. *Bioinformatics Advances*, Volume 2, Issue 1, 2022, vbab041, https://doi.org/10.1093/bioadv/vbab041
+
+Or my lab proteosome work also used lipMs:
+
+- Shao F, Li J, Xiao H, et al. A critical role of protein damage response in mediating cancer drug resistance. bioRxiv; 2024. DOI: 10.1101/2024.07.17.603840.
+
+
+
 ## Major content
 
 - It processes LipMs data following the instruction from "Measuring protein structural changes on a proteome-wide scale using limited proteolysiscoupled mass spectrometry":
@@ -127,6 +137,8 @@ The main analysis function `run_lip_ms_analysis()` accepts the following paramet
 - `normalize_method`: Method for normalization (default: "satterthwaite")
 - `use_gene_id`: Whether to use gene IDs (default: TRUE)
 - `modifications_df`: Optional dataframe with modification information
+
+
 
 ## Output Files
 
