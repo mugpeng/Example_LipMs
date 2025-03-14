@@ -100,7 +100,7 @@ The LipMS analysis follows this workflow:
 4. **Statistical Testing**
    - Perform statistical testing for proteins
    - Filter significant protein changes
-   - Assign missingness for peptides
+   - Assign missingness a and impute for peptides
    - Perform statistical testing for peptides
 
 5. **Normalization and Correction**
